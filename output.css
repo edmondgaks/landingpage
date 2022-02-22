@@ -667,6 +667,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-left-radius: 9999px;
 }
 
+.rounded-r-full {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
 .bg-bookmark-red {
   --tw-bg-opacity: 1;
   background-color: rgb(250 89 89 / var(--tw-bg-opacity));
@@ -869,6 +874,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 1024px) {
   .lg\:-right-36 {
     right: -9rem;
+  }
+
+  .lg\:-left-36 {
+    left: -9rem;
   }
 
   .lg\:mt-28 {
