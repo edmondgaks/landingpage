@@ -486,6 +486,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -502,6 +510,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -510,8 +530,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .bg-bookmark-red {
@@ -539,6 +567,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.75rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-Poppins {
   font-family: Poppins, sans-serif;
 }
@@ -546,6 +578,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .uppercase {
@@ -562,6 +609,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-bookmark-grey {
+  --tw-text-opacity: 1;
+  color: rgb(145 148 162 / var(--tw-text-opacity));
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&family=Poppins:wght@800&display=swap');
 
 @media (min-width: 640px) {
@@ -575,5 +627,28 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:hidden {
     display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mt-28 {
+    margin-top: 7rem;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
