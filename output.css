@@ -631,6 +631,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
+.gap-x-24 {
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -863,6 +868,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 
   .lg\:flex-row {
