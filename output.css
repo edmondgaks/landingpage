@@ -552,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 3rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -917,6 +921,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     left: -9rem;
   }
 
+  .lg\:-right-0 {
+    right: -0px;
+  }
+
+  .lg\:-right-32 {
+    right: -8rem;
+  }
+
   .lg\:mt-28 {
     margin-top: 7rem;
   }
@@ -963,6 +975,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .lg\:w-2 {
+    width: 0.5rem;
+  }
+
+  .lg\:w-2\/4 {
+    width: 50%;
   }
 
   .lg\:grid-cols-3 {
