@@ -637,6 +637,10 @@ Ensure the default browser behavior of the `hidden` attribute.
        column-gap: 6rem;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -776,6 +780,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-bookmark-grey {
   --tw-text-opacity: 1;
   color: rgb(145 148 162 / var(--tw-text-opacity));
+}
+
+.text-bookmark-purple {
+  --tw-text-opacity: 1;
+  color: rgb(82 103 223 / var(--tw-text-opacity));
 }
 
 .shadow-md {
