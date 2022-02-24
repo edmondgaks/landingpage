@@ -856,6 +856,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(82 103 223 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-bookmark-grey:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(145 148 162 / var(--tw-bg-opacity));
+}
+
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
