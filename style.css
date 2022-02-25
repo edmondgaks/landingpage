@@ -1,6 +1,6 @@
-.section-clip {
+/* .section-clip {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-}
+} */
 .sect-clip {
     clip-path: polygon(0 3%, 100% 0, 100% 100%, 0% 100%);
 
